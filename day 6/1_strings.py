@@ -3,11 +3,11 @@
 #Forward indexing starts from 0 and reverse indexing starts from -1
 
 message = "Hello World"
-print(message[0]) = # H
-print(message[3]) = # l
-print(message[5]) = # <space>
+print(message[0]) = # H 
+print(message[3]) = # l 
+print(message[5]) = # <space> 
 
-print(message[-1]) = # d
+print(message[-1]) = # d 
 print(message[-5]) = # r
 
 # If we try to access index not present in the string then it raises error
