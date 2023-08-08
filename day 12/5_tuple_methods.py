@@ -9,3 +9,4 @@ print(result) #5
 
 result = a.count(1) #2
 result = a.count(2) #2
+#############
