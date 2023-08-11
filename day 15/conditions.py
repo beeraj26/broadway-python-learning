@@ -43,6 +43,33 @@ if vowels:
 else:
     print("The list is empty")  
 
+data = [1, 2, 3, 4, 5]
+if 2 in data:
+    print("2 is present in the list")
+else:
+    print("2 is not in the list")
+
+num = 5
+if not num:
+    print("The number is not given")
+else:
+    print("The given number is {num}")
+
+#3. if...elif ladder
+exam_percent = 76
+if exam_percent >= 80:
+    print("The student got distinction")
+elif exam_percent >= 65:
+    print("The student got first division")
+elif exam_percent >= 55:
+    print("The student got second division")
+elif exam_percent >= 40:
+    print("The student got third division")
+elif exam_percent >= 65:
+    print("The student fail !!")
+
+
+
 
 
 
