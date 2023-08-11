@@ -56,6 +56,7 @@ else:
     print("The given number is {num}")
 
 #3. if...elif ladder
+exam_percent = int(input("Enter exam percentage"))
 exam_percent = 76
 if exam_percent >= 80:
     print("The student got distinction")
@@ -68,7 +69,26 @@ elif exam_percent >= 40:
 elif exam_percent >= 65:
     print("The student fail !!")
 
+# ternary if 
+a = 5 
+if a > 10:
+    print("The number is greater than 10")
+else:
+    print("This number is less than 10")
 
+#This is ternary if condition.
+print("The number is greater than 10") if a > 10 else print("The number is lesss than 10")
+
+
+#Nested if  => nested if are simply if condition insde a if condition 
+a = 20
+if a > 10:
+    if a > 15:
+        print("The number is greater than 15")
+    else: 
+        print("The number is just greater than 10")
+else: 
+    print("The number is less than 10")
 
 
 
