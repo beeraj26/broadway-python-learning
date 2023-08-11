@@ -17,14 +17,14 @@ Python is awesome.
 
 # Quote characters
 a = "i'm learning python"
-b = 'He said, "Python is easy to learn" 
+b = 'He said, "Python is easy to learn"'
 
 #We can also use escape characters for in strings with quote
 a = 'i\'m learning Python'
 b = "he said, \"python is easy to learn \""
 
 # Escape character are the characters in python which supress the actual python meaning and gives new meaning to that characters.
-\', \", \n, \t, etc are examples of escape characters.
+#\', \", \n, \t, etc are examples of escape characters.
 
 print("Hello\nWorld") #Print Hello in fisrt line and World in second line 
 print("Hello\tWorld") #Print Hello, a tab, World. 

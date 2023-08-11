@@ -16,12 +16,11 @@ department = student.get("department")
 print(department) #CS
 dob = student.get("dob") #This raises Key Error
 
-#accesing 
-
-
-
-
-
+# accessing values using get() method
+department = student.get("department")
+print(department)  # CS
+dob = student.get("dob")
+print(dob)  # None
 
 #Adding key-value pair in a dictionary
 vowels = ["a", "e", "i", "o"]

@@ -17,7 +17,7 @@ print(a == b or a < b) #False
 print(not a) #False
 print(not b) #False
 
-c = none 
+c = None
 print(not c) #True 
 print(not []) #True 
 print(not "") #True 
@@ -33,9 +33,9 @@ print("a" not in ["a", "e", "i", "o", "u"]) #False
 a = [1, 2, 3]
 b = a
 
-print(a is b) = #True
-print(id(a)) == id(b) #True
-print(a is not b) = #False
+#print(a is b) = #True
+#print(id(a)) == id(b) #True
+#print(a is not b) = #False
 
 b = a.copy()
 print(a is b) #False
