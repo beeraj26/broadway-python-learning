@@ -1,7 +1,7 @@
 #Python list are mutable objects
-#We caan create a list by enclosing a swquence in big brackets []
+#We caan create a list by enclosing a sequence in big brackets []
 
-#We xan also create a list using() built-in function
+#We can also create a list using() built-in function
 
 a= [] # An empty list
 b=  list() # An empty list using list() function

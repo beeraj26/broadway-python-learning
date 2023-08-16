@@ -3,7 +3,7 @@
 a=1
 b=2
 c= a+b
-#here '='is an asignment operator and'+' is an 
+#here '='is an asignment operator and'+' is an arithmetic operator
 # Arithemetic Operators
 #Addition (+)
 #Subtraction (-)
