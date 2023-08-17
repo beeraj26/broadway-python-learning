@@ -12,7 +12,6 @@ for each in S:
         continue
     result += each
 print(result)
-nhhbfujef
 
 
 
