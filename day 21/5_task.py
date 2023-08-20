@@ -1,0 +1,1 @@
+#Create another class Employee with attributes salary and designation and inherits the Person class. Create a method get_details in this class to print name, age, salary and designation of the Employee.
