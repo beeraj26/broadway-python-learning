@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Jon",
+    "address": "KTM",
+    "phone": 9812345678
+  },
+  {
+    "name": "Ron",
+    "address": "BKT",
+    "phone": 9812346678
+  },
+  {
+    "name": "Kon",
+    "address": "BTM",
+    "phone": 9812347678
+  }
+]
