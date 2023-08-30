@@ -1,40 +1,39 @@
-#The purpose of this consoul application is to use file-base storage system. 
-#We will create "student.json" file to store the information of the students 
-#We will CRUD (Create, Read, Update, Delete) in the students.json file
+# The purpose of this console application is to use file-based storage system
+# We will create "students.json" file to store the information of the students
+# We will CRUD (Create, Read, Update, Delete) in students.json file
 
-from create import create_std
-from read import read_std
-from update import update_std
-from delete import delete_std
-
-
+from create import create_student
+from read import read_student
+from update import update_student
+from delete import delete_student
 
 
 def inquiry():
-    selection = input("Select your choice c/r/u/d/e")
+    selection = input("Select your choice c/r/u/d/e ")
     selection = selection.lower()
 
     def exit_message():
-        print("Thank you, See you again")
+        print("Thank you. See you again!!")
+
     if selection == "c":
-        repeat = create_std()
+        student_id = input("Enter the student id ")
+        repeat = create_student()
         inquiry() if repeat else exit_message()
     elif selection == "r":
-        std_id = input("Enter std id")
-        repeat = read_std()
+        student_id = input("Enter the student id ")
+        repeat = read_student(student_id)
         inquiry() if repeat else exit_message()
     elif selection == "u":
-        update_std()
+        student_id = input("Enter the student id ")
+        repeat = update_student(student_id)
+        inquiry() if repeat else exit_message()    
     elif selection == "d":
-        delete_std()
+        student_id = input("Enter the student id ")
+        repeat = delete_student(student_id)
+        inquiry() if repeat else exit_message()
     else:
         exit_message()
 
+
 if __name__ == "__main__":
     inquiry()
-
-
-    
-
-
-

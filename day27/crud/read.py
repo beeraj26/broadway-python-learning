@@ -1,16 +1,15 @@
 import json
-filename = "stds.json"
+filename = "C:\\Users\\PREDATOR\\Desktop\\coding\\python_learning\\day27\\crud\\students.json"
 
-def read_std(std_id):
+
+def read_student(student_id):
     with open(filename, 'r') as fp:
-        stds = json.loads(fp.read())
-    std = list(filter(lambda x: x["id"] == std_id, stds))
-    if std:
-        std = std[0]
-        print(std)
+        students = json.loads(fp.read())
+    student = list(filter(lambda x: x["id"] == student_id, students))
+    if student:
+        student = student[0]
+        print(student)
     else:
-        print("No matching std id")
-    repeat = input("Do You want to continue?(y/n)")
+        print("No matching student id")
+    repeat = input("Do you want to continue?(y/n) ")
     return True if repeat.lower() == "y" else False
-    
-
